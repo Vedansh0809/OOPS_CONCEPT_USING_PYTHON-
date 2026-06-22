@@ -7,7 +7,12 @@ def square(self):
 def cube(self):
     print(f"the cube is {self.n*self.n*self.n}")
 def squareroot(self):
-    print(f"the square root is {self.n**1/2}") 
+    print(f"the square root is {self.n**0.5}") 
+@staticmethod
+def hello():
+    print("hello there!")
+    
+    
 
 
 
@@ -17,3 +22,4 @@ a = calculator(4)
 a.square()
 a.cube()
 a.squareroot()
+a.hello()
